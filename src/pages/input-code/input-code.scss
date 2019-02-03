@@ -1,0 +1,38 @@
+@font-face {
+    font-family: far_diplomat;
+    src: url(../../assets/fonts/FAR_DIPLOMAT.TTF);
+}
+page-input-code {
+    #rcorners2 {
+        border-radius: 13px;
+        width: 320px;
+        height: 320px;  
+        background-color:#f0f0f0;  
+        z-index: -1;
+        margin-left: 12px;
+      
+    } 
+   }
+   p.txt{
+    position: relative;
+    top:50px;
+    color: #005e79;
+
+ font-size: 20px;
+}
+div.border{
+     font-family: far_diplomat;
+}
+input{
+    border-radius: 40px;
+    width: 80%;
+    height: 35px;
+    text-align: center;
+    margin-top:60px ;
+}
+img.background{
+    z-index: -10;
+    position: fixed;
+ 
+
+}

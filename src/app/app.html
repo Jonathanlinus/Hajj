@@ -1,0 +1,22 @@
+<ion-nav [root]="rootPage"></ion-nav>
+<ion-menu [content]="content">
+    <ion-header>
+        <ion-toolbar>
+            <ion-title><img img-responive src="../../assets/imgs/logonajva.png" width="20%"></ion-title>
+        </ion-toolbar>
+    </ion-header>
+        <ion-content padding>
+         <ion-list>
+             <ion-item>ذکر شمار</ion-item>
+             <ion-item>رکعت شمار</ion-item>
+             <ion-item>علاقه مندی ها</ion-item>
+             <ion-item>تنظیمات</ion-item>
+             <ion-item>راهنما</ion-item>
+             <ion-item>قوانین و مقررات</ion-item>
+             <ion-item>انتقادات و پیشنهادات</ion-item>
+             <ion-item>خروج</ion-item>
+         </ion-list>
+        </ion-content>
+      </ion-menu>
+      
+      <ion-nav id="nav" #content [root]="rootPage"></ion-nav>
